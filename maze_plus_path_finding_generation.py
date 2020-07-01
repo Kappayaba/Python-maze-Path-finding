@@ -57,9 +57,6 @@ class Board(tk.Canvas):
         self.visited = [self.mazeStarterPos]
 
         self.create_maze(self.mazeStarterPos)
-
-        self.draw()
-
         self.find_path_aStar(self.startNode)
 
         self.draw()
@@ -207,8 +204,6 @@ class Board(tk.Canvas):
                             (x + 1) * Constants.CASE_SIZE + Constants.BOARD_MARGIN,
                             (y + 1) * Constants.CASE_SIZE + Constants.BOARD_MARGIN, fill=Constants.PATH_COLOR)
 
-        self.draw_player()
-        self.draw_goal()
 
 class Maze(tk.Frame):
 
