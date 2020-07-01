@@ -206,7 +206,6 @@ class Board(tk.Canvas):
                             y * Constants.CASE_SIZE + Constants.BOARD_MARGIN,
                             (x + 1) * Constants.CASE_SIZE + Constants.BOARD_MARGIN,
                             (y + 1) * Constants.CASE_SIZE + Constants.BOARD_MARGIN, fill=Constants.PATH_COLOR)
-            time.sleep(0.2)
 
         self.draw_player()
         self.draw_goal()
