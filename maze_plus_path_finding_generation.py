@@ -4,7 +4,7 @@ import random
 import time
 
 class Constants():
-    TITLE = "Hamza le boss"
+    TITLE = "Path finding"
 
     WINDOW_WIDTH, WINDOW_HEIGHT = 1920, 1080
 
